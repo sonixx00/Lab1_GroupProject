@@ -1,0 +1,17 @@
+Variant 3: interpolation of a tabulated function
+x0 = 1.5000000000
+Reference sin(x0) = 0.9974949866
+
+Student A - Lagrange interpolation
+Value:      0.9967630043
+Abs. error: 0.0007319823
+Operations: 96
+Time, us:   0.2410000000
+
+Student B - Natural cubic spline interpolation
+Value:      0.9928475592
+Abs. error: 0.0046474274
+Operations: 151
+Time, us:   2.9050000000
+
+Difference between methods: 0.0039154451
