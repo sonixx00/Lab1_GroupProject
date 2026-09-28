@@ -6,6 +6,7 @@
 #include <stdexcept>
 #include <vector>
 
+// Natural cubic spline interpolation - Student B
 std::unique_ptr<Result> calculateB(std::shared_ptr<const InputData> data)
 {
     if (!data || data->points.size() < 2)
